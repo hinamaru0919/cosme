@@ -1,0 +1,10 @@
+<h2>マイページ</h2>
+<%= image_tag @user.get_profile_image %>
+
+<h4>名前</h4>
+<%= @user.name %>
+
+<h4>メール</h4>
+<%= @user.email %>
+
+<%= link_to "編集", edit_users_path %>
